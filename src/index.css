@@ -11,3 +11,92 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  background: #f7f7f7;
+}
+*{
+  box-sizing: border-box;
+}
+.container {
+  max-width: 700px;
+  padding: 0 15px;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.row{
+  display: flex;
+  padding: 30px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+  background-color: #fff;
+}
+.container .col-md-6 {
+  width: 50%;
+  background-color: #fff;
+  padding: 25px;
+  border: solid 0px #94d4ff;
+  border-radius: 0px;
+  min-height: 250px;
+}
+.col-group-img{
+  width: 50%;
+  max-width: 50%;
+  background-color: #fff;
+  padding: 0px;
+  border: solid 0px #94d4ff;
+  border-radius: 0px;
+}
+.col-group-img img{
+  max-width: 100%;
+}
+.col-group-img h2 {
+  background-color: #94d4ff;
+  color: #fff;
+  margin: 0;
+  font-size: 24px;
+  text-align: center;
+  padding: 6px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px 4px 0px 0px;
+}
+.container .col-md-6 form {
+  display: flex;
+  flex-direction: column;
+}
+.container .col-md-6 form .form-group{
+  display: flex;
+  flex-direction: column;
+}
+.container .col-md-6 form .form-group label{
+  margin-bottom: 10px;
+  width: 100%;
+}
+.container .col-md-6 form .form-group input{
+  padding: 10px;
+  border: solid 1px #a9a8a8;
+  margin-bottom: 25px;
+  outline: none;
+  border-radius: 4px;
+}
+.btn{
+  background-color: #94d4ff;
+  padding: 12px;
+  border-radius: 4px;
+  width: auto;
+  border: none;
+  color: #000;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: #6cafdc;
+}
